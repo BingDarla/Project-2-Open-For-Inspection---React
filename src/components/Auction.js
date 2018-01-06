@@ -2,7 +2,7 @@ import React, {PureComponent as Component } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
 
-const AUCTION_URL = 'http://localhost:5000/auctions.json';
+const AUCTION_URL = 'https://young-plains-74805.herokuapp.com/auctions.json';
 
 function AuctionList(props) {
   const a = props.auctions[0];

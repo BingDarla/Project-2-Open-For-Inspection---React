@@ -5,7 +5,7 @@ import { HashRouter as Router, Route } from 'react-router-dom';
 
 import axios from 'axios';
 
-const SERVER_URL = 'http://localhost:5000/properties.json';
+const SERVER_URL = 'https://young-plains-74805.herokuapp.com/properties.json';
 
 class PropertiesForm extends Component {
   constructor( props ) {

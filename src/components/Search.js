@@ -7,7 +7,7 @@ import _ from 'underscore';
 import Results from './Results';
 import MapResults from './MapResults';
 
-const SERVER_URL = 'http://localhost:5000/properties.json'
+const SERVER_URL = 'https://young-plains-74805.herokuapp.com/properties.json'
 
 class Search extends Component {
   constructor(props) {
