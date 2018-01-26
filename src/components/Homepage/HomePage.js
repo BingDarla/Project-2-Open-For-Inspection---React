@@ -1,7 +1,7 @@
 import React, { PureComponent as Component } from 'react';
 import OpenForInspection from './OpenForInspection';
 import About from './About';
-import Footer from './Footer';
+
 
 import PreditPrice from './PredictPrice';
 
@@ -19,7 +19,7 @@ class HomePage extends Component {
       <div className="home-page t2">
         <OpenForInspection />
         <About />
-        <Footer />
+
       </div>
     );
   }
